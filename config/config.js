@@ -9,6 +9,6 @@ export default {
             underscored: true
         }
     },
-    jwtSecret: 'Libr##',
+    jwtSecret: 'Secr3t2016',
     jwtSession: { session: false }
 }
