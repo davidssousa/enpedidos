@@ -1,6 +1,7 @@
 import bodyParser from 'body-parser'
 import BookRoutes from '../routes/books'
 import UserRoutes from '../routes/users'
+import TokenRoutes from '../routes/token'
 
 export default app => {
     app.use(bodyParser.json())
@@ -10,4 +11,5 @@ export default app => {
     // Routes
     BookRoutes(app)
     UserRoutes(app)
+    TokenRoutes(app)
 }
